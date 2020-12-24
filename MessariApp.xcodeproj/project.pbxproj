@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FCDD3942595208800A99FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3932595208800A99FBC /* AppDelegate.swift */; };
+		1FCDD3962595208800A99FBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3952595208800A99FBC /* SceneDelegate.swift */; };
+		1FCDD3982595208800A99FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3972595208800A99FBC /* ViewController.swift */; };
+		1FCDD39B2595208800A99FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDD3992595208800A99FBC /* Main.storyboard */; };
+		1FCDD39D2595208B00A99FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDD39C2595208B00A99FBC /* Assets.xcassets */; };
+		1FCDD3A02595208B00A99FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDD39E2595208B00A99FBC /* LaunchScreen.storyboard */; };
+		1FCDD3AB2595208C00A99FBC /* MessariAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3AA2595208C00A99FBC /* MessariAppTests.swift */; };
+		1FCDD3B62595208C00A99FBC /* MessariAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3B52595208C00A99FBC /* MessariAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FCDD3A72595208C00A99FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FCDD3882595208800A99FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FCDD38F2595208800A99FBC;
+			remoteInfo = MessariApp;
+		};
+		1FCDD3B22595208C00A99FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FCDD3882595208800A99FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FCDD38F2595208800A99FBC;
+			remoteInfo = MessariApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FCDD3902595208800A99FBC /* MessariApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessariApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCDD3932595208800A99FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FCDD3952595208800A99FBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FCDD3972595208800A99FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FCDD39A2595208800A99FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FCDD39C2595208B00A99FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCDD39F2595208B00A99FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FCDD3A12595208B00A99FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCDD3A62595208C00A99FBC /* MessariAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessariAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCDD3AA2595208C00A99FBC /* MessariAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessariAppTests.swift; sourceTree = "<group>"; };
+		1FCDD3AC2595208C00A99FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCDD3B12595208C00A99FBC /* MessariAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessariAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCDD3B52595208C00A99FBC /* MessariAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessariAppUITests.swift; sourceTree = "<group>"; };
+		1FCDD3B72595208C00A99FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCDD38D2595208800A99FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCDD3A32595208C00A99FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCDD3AE2595208C00A99FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCDD3872595208800A99FBC = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3922595208800A99FBC /* MessariApp */,
+				1FCDD3A92595208C00A99FBC /* MessariAppTests */,
+				1FCDD3B42595208C00A99FBC /* MessariAppUITests */,
+				1FCDD3912595208800A99FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FCDD3912595208800A99FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3902595208800A99FBC /* MessariApp.app */,
+				1FCDD3A62595208C00A99FBC /* MessariAppTests.xctest */,
+				1FCDD3B12595208C00A99FBC /* MessariAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCDD3922595208800A99FBC /* MessariApp */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3932595208800A99FBC /* AppDelegate.swift */,
+				1FCDD3952595208800A99FBC /* SceneDelegate.swift */,
+				1FCDD3972595208800A99FBC /* ViewController.swift */,
+				1FCDD3992595208800A99FBC /* Main.storyboard */,
+				1FCDD39C2595208B00A99FBC /* Assets.xcassets */,
+				1FCDD39E2595208B00A99FBC /* LaunchScreen.storyboard */,
+				1FCDD3A12595208B00A99FBC /* Info.plist */,
+			);
+			path = MessariApp;
+			sourceTree = "<group>";
+		};
+		1FCDD3A92595208C00A99FBC /* MessariAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3AA2595208C00A99FBC /* MessariAppTests.swift */,
+				1FCDD3AC2595208C00A99FBC /* Info.plist */,
+			);
+			path = MessariAppTests;
+			sourceTree = "<group>";
+		};
+		1FCDD3B42595208C00A99FBC /* MessariAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3B52595208C00A99FBC /* MessariAppUITests.swift */,
+				1FCDD3B72595208C00A99FBC /* Info.plist */,
+			);
+			path = MessariAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FCDD38F2595208800A99FBC /* MessariApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCDD3BA2595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariApp" */;
+			buildPhases = (
+				1FCDD38C2595208800A99FBC /* Sources */,
+				1FCDD38D2595208800A99FBC /* Frameworks */,
+				1FCDD38E2595208800A99FBC /* Resources */,
+				1FCDD3C6259521CC00A99FBC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessariApp;
+			productName = MessariApp;
+			productReference = 1FCDD3902595208800A99FBC /* MessariApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FCDD3A52595208C00A99FBC /* MessariAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCDD3BD2595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariAppTests" */;
+			buildPhases = (
+				1FCDD3A22595208C00A99FBC /* Sources */,
+				1FCDD3A32595208C00A99FBC /* Frameworks */,
+				1FCDD3A42595208C00A99FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FCDD3A82595208C00A99FBC /* PBXTargetDependency */,
+			);
+			name = MessariAppTests;
+			productName = MessariAppTests;
+			productReference = 1FCDD3A62595208C00A99FBC /* MessariAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FCDD3B02595208C00A99FBC /* MessariAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCDD3C02595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariAppUITests" */;
+			buildPhases = (
+				1FCDD3AD2595208C00A99FBC /* Sources */,
+				1FCDD3AE2595208C00A99FBC /* Frameworks */,
+				1FCDD3AF2595208C00A99FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FCDD3B32595208C00A99FBC /* PBXTargetDependency */,
+			);
+			name = MessariAppUITests;
+			productName = MessariAppUITests;
+			productReference = 1FCDD3B12595208C00A99FBC /* MessariAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FCDD3882595208800A99FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1FCDD38F2595208800A99FBC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1FCDD3A52595208C00A99FBC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1FCDD38F2595208800A99FBC;
+					};
+					1FCDD3B02595208C00A99FBC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1FCDD38F2595208800A99FBC;
+					};
+				};
+			};
+			buildConfigurationList = 1FCDD38B2595208800A99FBC /* Build configuration list for PBXProject "MessariApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FCDD3872595208800A99FBC;
+			productRefGroup = 1FCDD3912595208800A99FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FCDD38F2595208800A99FBC /* MessariApp */,
+				1FCDD3A52595208C00A99FBC /* MessariAppTests */,
+				1FCDD3B02595208C00A99FBC /* MessariAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCDD38E2595208800A99FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDD3A02595208B00A99FBC /* LaunchScreen.storyboard in Resources */,
+				1FCDD39D2595208B00A99FBC /* Assets.xcassets in Resources */,
+				1FCDD39B2595208800A99FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCDD3A42595208C00A99FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCDD3AF2595208C00A99FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCDD3C6259521CC00A99FBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\nexit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FCDD38C2595208800A99FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDD3982595208800A99FBC /* ViewController.swift in Sources */,
+				1FCDD3942595208800A99FBC /* AppDelegate.swift in Sources */,
+				1FCDD3962595208800A99FBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCDD3A22595208C00A99FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDD3AB2595208C00A99FBC /* MessariAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCDD3AD2595208C00A99FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDD3B62595208C00A99FBC /* MessariAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FCDD3A82595208C00A99FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FCDD38F2595208800A99FBC /* MessariApp */;
+			targetProxy = 1FCDD3A72595208C00A99FBC /* PBXContainerItemProxy */;
+		};
+		1FCDD3B32595208C00A99FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FCDD38F2595208800A99FBC /* MessariApp */;
+			targetProxy = 1FCDD3B22595208C00A99FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FCDD3992595208800A99FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCDD39A2595208800A99FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FCDD39E2595208B00A99FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCDD39F2595208B00A99FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FCDD3B82595208C00A99FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FCDD3B92595208C00A99FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FCDD3BB2595208C00A99FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88WBPN35U7;
+				INFOPLIST_FILE = MessariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FCDD3BC2595208C00A99FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88WBPN35U7;
+				INFOPLIST_FILE = MessariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FCDD3BE2595208C00A99FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88WBPN35U7;
+				INFOPLIST_FILE = MessariAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessariApp.app/MessariApp";
+			};
+			name = Debug;
+		};
+		1FCDD3BF2595208C00A99FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88WBPN35U7;
+				INFOPLIST_FILE = MessariAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessariApp.app/MessariApp";
+			};
+			name = Release;
+		};
+		1FCDD3C12595208C00A99FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88WBPN35U7;
+				INFOPLIST_FILE = MessariAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MessariApp;
+			};
+			name = Debug;
+		};
+		1FCDD3C22595208C00A99FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88WBPN35U7;
+				INFOPLIST_FILE = MessariAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MessariApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCDD38B2595208800A99FBC /* Build configuration list for PBXProject "MessariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCDD3B82595208C00A99FBC /* Debug */,
+				1FCDD3B92595208C00A99FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCDD3BA2595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCDD3BB2595208C00A99FBC /* Debug */,
+				1FCDD3BC2595208C00A99FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCDD3BD2595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCDD3BE2595208C00A99FBC /* Debug */,
+				1FCDD3BF2595208C00A99FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCDD3C02595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCDD3C12595208C00A99FBC /* Debug */,
+				1FCDD3C22595208C00A99FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FCDD3882595208800A99FBC /* Project object */;
+}
