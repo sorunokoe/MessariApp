@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainView: UIView {
+class MainView: BaseView {
     
     lazy var greetingView: GreetingView = GreetingView()
     lazy var refreshControl: UIRefreshControl = UIRefreshControl()

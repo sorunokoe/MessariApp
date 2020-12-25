@@ -28,6 +28,7 @@ class MainViewModel: BaseViewModel, MainViewModelProtocol {
     }
     func getAssets() {
         guard !self.isEnded else { return }
+        self.loading.value = true
         provider.request(.getAssets(page: currentPage, limit: MainDataSource.limit)) { (result) in
             self.loading.value = false
             switch result {

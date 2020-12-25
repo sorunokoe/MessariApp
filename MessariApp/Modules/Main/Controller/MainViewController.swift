@@ -45,6 +45,13 @@ extension MainViewController {
 }
 private extension MainViewController {
     func bind() {
+        viewModel.loading.bind { (value) in
+            if value {
+                self.customView.showIndicator()
+            } else {
+                self.customView.hideIndicator()
+            }
+        }
         customView.refreshControl.addTarget(self, action: #selector(update), for: .valueChanged)
         customView.collectionView.dataSource = self
         customView.collectionView.delegate = self

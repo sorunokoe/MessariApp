@@ -73,32 +73,13 @@ private extension AssetTileCollectionCell {
         self.contentView.backgroundColor = UIColor(color: .tile)
         self.contentView.addSubview(areaStackView)
         [iconImageView, titleLabel, priceLabel].forEach {
-//            areaView.addSubview($0)
             areaStackView.addArrangedSubview($0)
         }
         areaStackView.snp.makeConstraints {
-            $0.top.equalToSuperview().offset(10)
+            $0.top.equalToSuperview().offset(5)
             $0.left.equalToSuperview().offset(5)
             $0.right.equalToSuperview().offset(-5)
             $0.bottom.equalToSuperview().offset(-5)
         }
-//        iconImageView.snp.makeConstraints {
-//            $0.top.equalToSuperview().offset(5)
-//            $0.centerX.equalToSuperview()
-//            $0.width.equalTo(32)
-//            $0.height.equalTo(32)
-//        }
-//        titleLabel.snp.makeConstraints {
-//            $0.top.equalTo(iconImageView.snp.bottom).offset(16)
-//            $0.left.equalToSuperview().offset(5)
-//            $0.right.equalToSuperview().offset(-5)
-//            $0.height.equalTo(15)
-//        }
-//        priceLabel.snp.makeConstraints {
-//            $0.top.equalTo(titleLabel.snp.bottom).offset(5)
-//            $0.left.equalToSuperview().offset(5)
-//            $0.right.equalToSuperview().offset(-5)
-//            $0.height.equalTo(15)
-//        }
     }
 }

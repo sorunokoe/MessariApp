@@ -38,6 +38,7 @@
 		1FCDD4D32595E12C00A99FBC /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD4D22595E12C00A99FBC /* MainRouter.swift */; };
 		1FCDD4DE2595F21500A99FBC /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD4DD2595F21500A99FBC /* Double+Extension.swift */; };
 		1FCDD4E72595F9A100A99FBC /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD4E62595F9A100A99FBC /* GreetingView.swift */; };
+		1FCDD5082596257800A99FBC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD5072596257800A99FBC /* BaseView.swift */; };
 		C57206E87B728270942E8F8D /* Pods_MessariApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BA986986A26EF5C80C2035 /* Pods_MessariApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		1FCDD4D22595E12C00A99FBC /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		1FCDD4DD2595F21500A99FBC /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		1FCDD4E62595F9A100A99FBC /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		1FCDD5072596257800A99FBC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		49B0DF17F945B35FC29E218F /* Pods_MessariAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessariAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8DF257EF56840C2F73299D /* Pods-MessariAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MessariAppTests/Pods-MessariAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A66AC3D8904A141645A757FE /* Pods-MessariAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariAppTests.release.xcconfig"; path = "Target Support Files/Pods-MessariAppTests/Pods-MessariAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 		1FCDD44C2595B0B800A99FBC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1FCDD5062596257200A99FBC /* View */,
 				1FCDD4532595B0FC00A99FBC /* Model */,
 			);
 			path = Base;
@@ -429,6 +432,14 @@
 				1FCDD4E62595F9A100A99FBC /* GreetingView.swift */,
 			);
 			path = GreetingView;
+			sourceTree = "<group>";
+		};
+		1FCDD5062596257200A99FBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD5072596257800A99FBC /* BaseView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BA02F5A26FE09FE1AFBFB697 /* Frameworks */ = {
@@ -649,6 +660,7 @@
 				1FCDD4582595B28300A99FBC /* AssetResponse.swift in Sources */,
 				1FCDD4952595CBDF00A99FBC /* UIColor+Extension.swift in Sources */,
 				1FCDD4B12595CFE900A99FBC /* MainHeader.swift in Sources */,
+				1FCDD5082596257800A99FBC /* BaseView.swift in Sources */,
 				1FCDD4CF2595DE8D00A99FBC /* MainViewController+AssetCollectionDelegate.swift in Sources */,
 				1FCDD4662595B4E900A99FBC /* MarketData.swift in Sources */,
 				1FCDD4402595AC1E00A99FBC /* Environment.swift in Sources */,
