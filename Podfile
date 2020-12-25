@@ -10,9 +10,13 @@ target 'MessariApp' do
   # UI
   pod 'SnapKit'
   pod 'NVActivityIndicatorView'
+  pod 'Hue'
 
   # Network
   pod 'Moya'
+ 
+  #Image
+  pod 'Kingfisher'
 
   target 'MessariAppTests' do
     inherit! :search_paths
