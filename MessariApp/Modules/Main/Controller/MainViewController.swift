@@ -31,7 +31,6 @@ class MainViewController: UIViewController, MainViewControllerProtocol {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.isNavigationBarHidden = true
         bind()
         viewModel.getAssets()
     }
@@ -46,11 +45,7 @@ extension MainViewController {
 private extension MainViewController {
     func bind() {
         viewModel.loading.bind { (value) in
-            if value {
-                self.customView.showIndicator()
-            } else {
-                self.customView.hideIndicator()
-            }
+            self.customView.indicator(show: value)
         }
         customView.refreshControl.addTarget(self, action: #selector(update), for: .valueChanged)
         customView.collectionView.dataSource = self

@@ -23,11 +23,12 @@ class BaseView: UIView {
     
 }
 extension BaseView {
-    func showIndicator() {
-        self.indicatorView.startAnimating()
-    }
-    func hideIndicator() {
-        self.indicatorView.stopAnimating()
+    func indicator(show: Bool) {
+        if show {
+            self.indicatorView.startAnimating()
+        } else {
+            self.indicatorView.stopAnimating()
+        }
     }
 }
 private extension BaseView {

@@ -8,7 +8,7 @@
 import UIKit
 
 enum MainRoutes {
-    case detail
+    case detailWith(asset: AssetData)
 }
 protocol MainViewControllerProtocol: UIViewController {
     var router: MainRouterProtocol { get }

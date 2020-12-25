@@ -19,14 +19,18 @@ class MainRouter: MainRouterProtocol {
                                     viewModel: viewModel,
                                     router: router)
         let nc = UINavigationController(rootViewController: vc)
+        nc.navigationBar.isTranslucent = false
+        nc.navigationBar.barTintColor = UIColor(color: .background)
+        nc.navigationBar.tintColor = UIColor(color: .blue)
         router.vc = nc
         return nc
     }
     
     func navigate(to: MainRoutes) {
         switch to {
-        case .detail:
-            break
+        case .detailWith(let asset):
+            let vc = AssetDetailRouter.generateWith(asset: asset)
+            self.vc?.pushViewController(vc, animated: true)
         }
     }
     

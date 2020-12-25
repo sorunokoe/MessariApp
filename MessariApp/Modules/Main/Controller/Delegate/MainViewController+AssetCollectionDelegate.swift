@@ -9,7 +9,13 @@ import UIKit
 
 extension MainViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let asset = self.viewModel.assets.value[indexPath.item]
+        self.router.navigate(to: .detailWith(asset: asset))
+    }
+}
+extension MainViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.customView.greetingView.brandImageView.isHidden = self.customView.collectionView.contentOffset.y > 200
     }
 }
 extension MainViewController: UICollectionViewDelegateFlowLayout {

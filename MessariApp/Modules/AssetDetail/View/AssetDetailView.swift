@@ -1,5 +1,5 @@
 //
-//  MainView.swift
+//  AssetDetailView.swift
 //  MessariApp
 //
 //  Created by Yeskendir Salgara on 25.12.2020.
@@ -7,9 +7,13 @@
 
 import UIKit
 
-class MainView: BaseView {
+class AssetDetailView: BaseView {
     
-    lazy var greetingView: GreetingView = GreetingView()
+    lazy var greetingView: GreetingView = {
+        let view = GreetingView()
+        view.brandImageView.isHidden = true
+        return view
+    }()
     lazy var refreshControl: UIRefreshControl = UIRefreshControl()
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -18,13 +22,13 @@ class MainView: BaseView {
         collectionView.refreshControl = refreshControl
         collectionView.showsVerticalScrollIndicator = false
         collectionView.backgroundColor = .clear
-        collectionView.register(AssetTileCollectionCell.self,
-                                forCellWithReuseIdentifier: MainDataSource.CellIdentifier.tileCellId.rawValue)
-        collectionView.register(AssetListCollectionCell.self,
-                                forCellWithReuseIdentifier: MainDataSource.CellIdentifier.listCellId.rawValue)
-        collectionView.register(MainHeader.self,
-                                forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader,
-                                withReuseIdentifier: MainDataSource.CellIdentifier.headerId.rawValue)
+        collectionView.register(AssetDetailInfoCollectionCell.self,
+                                forCellWithReuseIdentifier: AssetDetailDataSource.CellIdentificator.infoId.rawValue)
+        collectionView.register(AssetDetailChartCollectionCell.self,
+                                forCellWithReuseIdentifier: AssetDetailDataSource.CellIdentificator.chardId.rawValue)
+        collectionView.register(AssetDetailTaglineCollectionCell.self,
+                                forCellWithReuseIdentifier: AssetDetailDataSource.CellIdentificator.taglineId.rawValue)
+        
         return collectionView
     }()
     
@@ -36,11 +40,9 @@ class MainView: BaseView {
         super.init(coder: coder)
         configure()
     }
-    
 }
-private extension MainView {
+private extension AssetDetailView {
     func configure() {
-        collectionView.contentInset = UIEdgeInsets(top: 130, left: 0, bottom: 0, right: 0)
         self.backgroundColor = UIColor(color: .background)
         self.addSubview(greetingView)
         self.addSubview(collectionView)
@@ -49,15 +51,10 @@ private extension MainView {
         }
         greetingView.snp.makeConstraints {
             $0.centerX.equalToSuperview()
-            $0.top.equalToSuperview().offset(-200)
+            $0.bottom.equalToSuperview().offset(200)
             $0.width.equalTo(500)
             $0.height.equalTo(500)
         }
         refreshControl.tintColor = UIColor(color: .textLabel)
-        refreshControl.translatesAutoresizingMaskIntoConstraints = false
-        refreshControl.snp.makeConstraints {
-            $0.centerX.equalTo(greetingView.brandImageView.snp.centerX)
-            $0.centerY.equalTo(greetingView.brandImageView.snp.centerY)
-        }
     }
 }

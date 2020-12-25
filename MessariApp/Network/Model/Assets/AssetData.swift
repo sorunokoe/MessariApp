@@ -12,9 +12,12 @@ struct AssetData: Decodable {
     var symbol: String
     var name: String
     var metrics: AssetMetric?
+    var profile: AssetProfile?
+    
+    var values: [[Double]]?
     
     enum CodingKeys: CodingKey {
-        case id, symbol, name, metrics
+        case id, symbol, name, metrics, profile, values
     }
     
     init(from decoder: Decoder) throws {
@@ -23,6 +26,8 @@ struct AssetData: Decodable {
         symbol = try container.decode(String.self, forKey: .symbol)
         name = try container.decode(String.self, forKey: .name)
         metrics = try? container.decode(AssetMetric.self, forKey: .metrics)
+        profile = try? container.decode(AssetProfile.self, forKey: .profile)
+        values = try? container.decode([[Double]].self, forKey: .values)
     }
     
 }

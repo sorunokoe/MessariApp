@@ -9,6 +9,7 @@ import Moya
 
 enum AssetsService {
     case getAssets(page: Int, limit: Int)
+    case getMetrics(id: String, type: String, start: String, end: String)
 }
 extension AssetsService: TargetType {
     var baseURL: URL {
@@ -19,12 +20,14 @@ extension AssetsService: TargetType {
         switch self {
         case .getAssets:
             return "/assets"
+        case .getMetrics(let id, let type, _, _):
+            return "/assets/\(id)/metrics/\(type)/time-series"
         }
     }
     
     var method: Method {
         switch self {
-        case .getAssets:
+        case .getAssets, .getMetrics:
             return .get
         }
     }
@@ -39,6 +42,12 @@ extension AssetsService: TargetType {
             let params = [
                 "page": page,
                 "limit": limit
+            ]
+            return .requestParameters(parameters: params, encoding: URLEncoding.queryString)
+        case .getMetrics(_, _, let start, let end):
+            let params = [
+                "start": start,
+                "end": end
             ]
             return .requestParameters(parameters: params, encoding: URLEncoding.queryString)
         }

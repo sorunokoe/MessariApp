@@ -43,7 +43,10 @@ extension MainViewController: UICollectionViewDataSource {
         let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                          withReuseIdentifier: id,
                                                                          for: indexPath) as! MainHeader
-        headerView.titleLabel.text = "Assets"
+        if !viewModel.assets.value.isEmpty {
+            headerView.titleLabel.text = "Assets"
+        }
+        
         return headerView
     }
 }
