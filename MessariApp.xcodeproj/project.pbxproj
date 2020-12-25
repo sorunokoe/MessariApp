@@ -3,18 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187E6A4B4958F55EA4BA3F19 /* Pods_MessariAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B0DF17F945B35FC29E218F /* Pods_MessariAppTests.framework */; };
 		1FCDD3942595208800A99FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3932595208800A99FBC /* AppDelegate.swift */; };
-		1FCDD3962595208800A99FBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3952595208800A99FBC /* SceneDelegate.swift */; };
-		1FCDD3982595208800A99FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3972595208800A99FBC /* ViewController.swift */; };
-		1FCDD39B2595208800A99FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDD3992595208800A99FBC /* Main.storyboard */; };
 		1FCDD39D2595208B00A99FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDD39C2595208B00A99FBC /* Assets.xcassets */; };
 		1FCDD3A02595208B00A99FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDD39E2595208B00A99FBC /* LaunchScreen.storyboard */; };
 		1FCDD3AB2595208C00A99FBC /* MessariAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3AA2595208C00A99FBC /* MessariAppTests.swift */; };
-		1FCDD3B62595208C00A99FBC /* MessariAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD3B52595208C00A99FBC /* MessariAppUITests.swift */; };
+		C57206E87B728270942E8F8D /* Pods_MessariApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BA986986A26EF5C80C2035 /* Pods_MessariApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +23,26 @@
 			remoteGlobalIDString = 1FCDD38F2595208800A99FBC;
 			remoteInfo = MessariApp;
 		};
-		1FCDD3B22595208C00A99FBC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FCDD3882595208800A99FBC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FCDD38F2595208800A99FBC;
-			remoteInfo = MessariApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BA986986A26EF5C80C2035 /* Pods_MessariApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessariApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CF32E5F4D80BA017348BA4 /* Pods_MessariApp_MessariAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessariApp_MessariAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCDD3902595208800A99FBC /* MessariApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessariApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCDD3932595208800A99FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FCDD3952595208800A99FBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FCDD3972595208800A99FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FCDD39A2595208800A99FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FCDD39C2595208B00A99FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FCDD39F2595208B00A99FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FCDD3A12595208B00A99FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FCDD3A62595208C00A99FBC /* MessariAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessariAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCDD3AA2595208C00A99FBC /* MessariAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessariAppTests.swift; sourceTree = "<group>"; };
 		1FCDD3AC2595208C00A99FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FCDD3B12595208C00A99FBC /* MessariAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessariAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FCDD3B52595208C00A99FBC /* MessariAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessariAppUITests.swift; sourceTree = "<group>"; };
-		1FCDD3B72595208C00A99FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B0DF17F945B35FC29E218F /* Pods_MessariAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessariAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8DF257EF56840C2F73299D /* Pods-MessariAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MessariAppTests/Pods-MessariAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A66AC3D8904A141645A757FE /* Pods-MessariAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariAppTests.release.xcconfig"; path = "Target Support Files/Pods-MessariAppTests/Pods-MessariAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB61E65DD6ED514FD3F242D0 /* Pods-MessariApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariApp.debug.xcconfig"; path = "Target Support Files/Pods-MessariApp/Pods-MessariApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AECC68E0B6AD71ED0556CA7B /* Pods-MessariApp-MessariAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariApp-MessariAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MessariApp-MessariAppUITests/Pods-MessariApp-MessariAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A6FDEC64D64FE137702215 /* Pods-MessariApp-MessariAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariApp-MessariAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MessariApp-MessariAppUITests/Pods-MessariApp-MessariAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC5A3573E4BB3815427751B4 /* Pods-MessariApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessariApp.release.xcconfig"; path = "Target Support Files/Pods-MessariApp/Pods-MessariApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57206E87B728270942E8F8D /* Pods_MessariApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,13 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FCDD3AE2595208C00A99FBC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				187E6A4B4958F55EA4BA3F19 /* Pods_MessariAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +70,9 @@
 			children = (
 				1FCDD3922595208800A99FBC /* MessariApp */,
 				1FCDD3A92595208C00A99FBC /* MessariAppTests */,
-				1FCDD3B42595208C00A99FBC /* MessariAppUITests */,
 				1FCDD3912595208800A99FBC /* Products */,
+				DBEE2245C44480E085B4BA3E /* Pods */,
+				BA02F5A26FE09FE1AFBFB697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +81,6 @@
 			children = (
 				1FCDD3902595208800A99FBC /* MessariApp.app */,
 				1FCDD3A62595208C00A99FBC /* MessariAppTests.xctest */,
-				1FCDD3B12595208C00A99FBC /* MessariAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,12 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				1FCDD3932595208800A99FBC /* AppDelegate.swift */,
-				1FCDD3952595208800A99FBC /* SceneDelegate.swift */,
-				1FCDD3972595208800A99FBC /* ViewController.swift */,
-				1FCDD3992595208800A99FBC /* Main.storyboard */,
-				1FCDD39C2595208B00A99FBC /* Assets.xcassets */,
-				1FCDD39E2595208B00A99FBC /* LaunchScreen.storyboard */,
-				1FCDD3A12595208B00A99FBC /* Info.plist */,
+				1FCDD3F82595249900A99FBC /* Navigation */,
+				1FCDD3DE259523E700A99FBC /* Modules */,
+				1FCDD3D7259523D700A99FBC /* Resources */,
 			);
 			path = MessariApp;
 			sourceTree = "<group>";
@@ -119,13 +105,131 @@
 			path = MessariAppTests;
 			sourceTree = "<group>";
 		};
-		1FCDD3B42595208C00A99FBC /* MessariAppUITests */ = {
+		1FCDD3D7259523D700A99FBC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1FCDD3B52595208C00A99FBC /* MessariAppUITests.swift */,
-				1FCDD3B72595208C00A99FBC /* Info.plist */,
+				1FCDD3A12595208B00A99FBC /* Info.plist */,
+				1FCDD39E2595208B00A99FBC /* LaunchScreen.storyboard */,
+				1FCDD39C2595208B00A99FBC /* Assets.xcassets */,
 			);
-			path = MessariAppUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FCDD3DE259523E700A99FBC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3EF2595245C00A99FBC /* AssetDetail */,
+				1FCDD3EE2595245600A99FBC /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1FCDD3EE2595245600A99FBC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3F72595247F00A99FBC /* Navigation */,
+				1FCDD3F22595246F00A99FBC /* Controller */,
+				1FCDD3F12595246D00A99FBC /* View */,
+				1FCDD3F02595246600A99FBC /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1FCDD3EF2595245C00A99FBC /* AssetDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD3F62595247A00A99FBC /* Navigation */,
+				1FCDD3F52595247600A99FBC /* Controller */,
+				1FCDD3F42595247400A99FBC /* View */,
+				1FCDD3F32595247200A99FBC /* Model */,
+			);
+			path = AssetDetail;
+			sourceTree = "<group>";
+		};
+		1FCDD3F02595246600A99FBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FCDD3F12595246D00A99FBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FCDD3F22595246F00A99FBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FCDD3F32595247200A99FBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FCDD3F42595247400A99FBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FCDD3F52595247600A99FBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FCDD3F62595247A00A99FBC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1FCDD3F72595247F00A99FBC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1FCDD3F82595249900A99FBC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		BA02F5A26FE09FE1AFBFB697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00BA986986A26EF5C80C2035 /* Pods_MessariApp.framework */,
+				13CF32E5F4D80BA017348BA4 /* Pods_MessariApp_MessariAppUITests.framework */,
+				49B0DF17F945B35FC29E218F /* Pods_MessariAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBEE2245C44480E085B4BA3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB61E65DD6ED514FD3F242D0 /* Pods-MessariApp.debug.xcconfig */,
+				DC5A3573E4BB3815427751B4 /* Pods-MessariApp.release.xcconfig */,
+				AECC68E0B6AD71ED0556CA7B /* Pods-MessariApp-MessariAppUITests.debug.xcconfig */,
+				B0A6FDEC64D64FE137702215 /* Pods-MessariApp-MessariAppUITests.release.xcconfig */,
+				8B8DF257EF56840C2F73299D /* Pods-MessariAppTests.debug.xcconfig */,
+				A66AC3D8904A141645A757FE /* Pods-MessariAppTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,10 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FCDD3BA2595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariApp" */;
 			buildPhases = (
+				D9D3038B184203EDFB1647C6 /* [CP] Check Pods Manifest.lock */,
 				1FCDD38C2595208800A99FBC /* Sources */,
 				1FCDD38D2595208800A99FBC /* Frameworks */,
 				1FCDD38E2595208800A99FBC /* Resources */,
 				1FCDD3C6259521CC00A99FBC /* ShellScript */,
+				C87CFA004E71801A6BF24C8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FCDD3BD2595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariAppTests" */;
 			buildPhases = (
+				E72A0DD6E7498F6F38BBAD7B /* [CP] Check Pods Manifest.lock */,
 				1FCDD3A22595208C00A99FBC /* Sources */,
 				1FCDD3A32595208C00A99FBC /* Frameworks */,
 				1FCDD3A42595208C00A99FBC /* Resources */,
@@ -167,24 +274,6 @@
 			productReference = 1FCDD3A62595208C00A99FBC /* MessariAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1FCDD3B02595208C00A99FBC /* MessariAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FCDD3C02595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariAppUITests" */;
-			buildPhases = (
-				1FCDD3AD2595208C00A99FBC /* Sources */,
-				1FCDD3AE2595208C00A99FBC /* Frameworks */,
-				1FCDD3AF2595208C00A99FBC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FCDD3B32595208C00A99FBC /* PBXTargetDependency */,
-			);
-			name = MessariAppUITests;
-			productName = MessariAppUITests;
-			productReference = 1FCDD3B12595208C00A99FBC /* MessariAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +287,6 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					1FCDD3A52595208C00A99FBC = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 1FCDD38F2595208800A99FBC;
-					};
-					1FCDD3B02595208C00A99FBC = {
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = 1FCDD38F2595208800A99FBC;
 					};
@@ -222,7 +307,6 @@
 			targets = (
 				1FCDD38F2595208800A99FBC /* MessariApp */,
 				1FCDD3A52595208C00A99FBC /* MessariAppTests */,
-				1FCDD3B02595208C00A99FBC /* MessariAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,18 +318,10 @@
 			files = (
 				1FCDD3A02595208B00A99FBC /* LaunchScreen.storyboard in Resources */,
 				1FCDD39D2595208B00A99FBC /* Assets.xcassets in Resources */,
-				1FCDD39B2595208800A99FBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1FCDD3A42595208C00A99FBC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FCDD3AF2595208C00A99FBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,6 +348,67 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\nexit 1\nfi\n";
 		};
+		C87CFA004E71801A6BF24C8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MessariApp/Pods-MessariApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MessariApp/Pods-MessariApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MessariApp/Pods-MessariApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D3038B184203EDFB1647C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessariApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72A0DD6E7498F6F38BBAD7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessariAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,9 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCDD3982595208800A99FBC /* ViewController.swift in Sources */,
 				1FCDD3942595208800A99FBC /* AppDelegate.swift in Sources */,
-				1FCDD3962595208800A99FBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +428,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FCDD3AD2595208C00A99FBC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FCDD3B62595208C00A99FBC /* MessariAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -309,22 +436,9 @@
 			target = 1FCDD38F2595208800A99FBC /* MessariApp */;
 			targetProxy = 1FCDD3A72595208C00A99FBC /* PBXContainerItemProxy */;
 		};
-		1FCDD3B32595208C00A99FBC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FCDD38F2595208800A99FBC /* MessariApp */;
-			targetProxy = 1FCDD3B22595208C00A99FBC /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1FCDD3992595208800A99FBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FCDD39A2595208800A99FBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1FCDD39E2595208B00A99FBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -454,12 +568,13 @@
 		};
 		1FCDD3BB2595208C00A99FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB61E65DD6ED514FD3F242D0 /* Pods-MessariApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88WBPN35U7;
-				INFOPLIST_FILE = MessariApp/Info.plist;
+				INFOPLIST_FILE = MessariApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,18 +582,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1FCDD3BC2595208C00A99FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5A3573E4BB3815427751B4 /* Pods-MessariApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88WBPN35U7;
-				INFOPLIST_FILE = MessariApp/Info.plist;
+				INFOPLIST_FILE = MessariApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,12 +602,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1FCDD3BE2595208C00A99FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8DF257EF56840C2F73299D /* Pods-MessariAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +631,7 @@
 		};
 		1FCDD3BF2595208C00A99FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66AC3D8904A141645A757FE /* Pods-MessariAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,46 +649,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessariApp.app/MessariApp";
-			};
-			name = Release;
-		};
-		1FCDD3C12595208C00A99FBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88WBPN35U7;
-				INFOPLIST_FILE = MessariAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MessariApp;
-			};
-			name = Debug;
-		};
-		1FCDD3C22595208C00A99FBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88WBPN35U7;
-				INFOPLIST_FILE = MessariAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.MessariAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MessariApp;
 			};
 			name = Release;
 		};
@@ -600,15 +678,6 @@
 			buildConfigurations = (
 				1FCDD3BE2595208C00A99FBC /* Debug */,
 				1FCDD3BF2595208C00A99FBC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FCDD3C02595208C00A99FBC /* Build configuration list for PBXNativeTarget "MessariAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FCDD3C12595208C00A99FBC /* Debug */,
-				1FCDD3C22595208C00A99FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
